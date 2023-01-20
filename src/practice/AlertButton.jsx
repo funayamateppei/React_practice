@@ -2,7 +2,7 @@ import React from 'react';
 
 const AlertButton = (props) => {
 
-  console.log(props);
+  // console.log(props);
 
   const handleClick = () => {
     alert(props.children);
@@ -10,7 +10,7 @@ const AlertButton = (props) => {
 
   return (
     <>
-      <button onClick={handleClick}>アラート</button>
+      <button onClick={handleClick}>アラートボタン</button>
     </>
   )
 }
