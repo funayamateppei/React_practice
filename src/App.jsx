@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
   const name = "Funayama Teppei";
+  const handleChange = () => {
+    console.log("hoge");
+  }
 
   return (
     <>
       <h1>name:{name}</h1>
+      <button onClick={handleChange}>ボタン</button>
     </>
   )
 }
